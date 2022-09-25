@@ -1,5 +1,6 @@
 package com.JavaLearning;
 
+
 //1. Operators, types of operators in Java
 //2. Associativity of operators
 
@@ -10,6 +11,8 @@ package com.JavaLearning;
     //Comparison -> ==,>=,<=
     // Logical -> &&, || ,!
     // Bitwise -> &, |
+
+import java.util.Scanner;
 
 //2. Associativity of operators
     /*
@@ -28,10 +31,15 @@ package com.JavaLearning;
     */
 public class Java3_Operators {
     public static void main(String[] args) {
-        int a=5;
-        int b=6*a;
-        System.out.println(b);
+//        int a=5;
+//        int b=6*a;
+//        System.out.println(b);
+//
+//        System.out.println(2&3); //bitwise operator -> 2=>10 , 3=>11 =>2&3=>10=2
 
-        System.out.println(2&3); //bitwise operator -> 2=>10 , 3=>11 =>2&3=>10=2
+        char c='B';
+        System.out.println((char)(c+2));
+
+
     }
 }
