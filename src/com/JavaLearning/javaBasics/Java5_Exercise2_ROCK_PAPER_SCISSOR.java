@@ -1,4 +1,4 @@
-package com.JavaLearning;
+package com.JavaLearning.javaBasics;
 
 import java.util.Random;
 import java.util.Scanner;

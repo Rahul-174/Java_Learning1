@@ -1,4 +1,4 @@
-package com.JavaLearning;
+package com.JavaLearning.javaBasics;
 
 
 //1. Operators, types of operators in Java
@@ -11,8 +11,6 @@ package com.JavaLearning;
     //Comparison -> ==,>=,<=
     // Logical -> &&, || ,!
     // Bitwise -> &, |
-
-import java.util.Scanner;
 
 //2. Associativity of operators
     /*

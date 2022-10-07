@@ -1,4 +1,4 @@
-package com.JavaLearning;
+package com.JavaLearning.javaBasics;
 
 public class Java4_Strings {
 
