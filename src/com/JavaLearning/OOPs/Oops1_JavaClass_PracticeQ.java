@@ -21,7 +21,7 @@ class Employee1{
     }
 }
 
-public class Opps1_JavaClass_PracticeQ {
+public class Oops1_JavaClass_PracticeQ {
     public static void main(String[] args) {
 
         //Creating object for Devesh

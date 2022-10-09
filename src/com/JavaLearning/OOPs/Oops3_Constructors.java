@@ -38,7 +38,7 @@ class Employee3{
     }
 }
 
-public class Opps3_Constructors {
+public class Oops3_Constructors {
     public static void main(String[] args) {
 //        Employee3 myObj=new Employee3();
 //        myObj.setId(1);

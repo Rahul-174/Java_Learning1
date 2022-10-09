@@ -43,7 +43,7 @@ class Employee2{
     }
 }
 
-public class Opps2_AccessModifiers_Getters_Setters {
+public class Oops2_AccessModifiers_Getters_Setters {
     public static void main(String[] args) {
         Employee2 myObj=new Employee2();
 
