@@ -12,15 +12,10 @@ PROBLEM STATEMENT :
 import java.util.ArrayList;
 
 class Library{
+    public Library() {} //Default Constructor
 
-    //Default Constructor
-    public Library() {}
-
-    //Array to store list of available books
-    ArrayList<String>availableBookList=new ArrayList<String>();
-
-    //Array to store list of issued books
-    ArrayList<String>issuedBookList=new ArrayList<>();
+    ArrayList<String>availableBookList=new ArrayList<String>(); //Array to store list of available books
+    ArrayList<String>issuedBookList=new ArrayList<>();  //Array to store list of issued books
 
     public ArrayList<String> getAvailableBookList() {   //Getting Available BookList
         return availableBookList;
@@ -28,7 +23,6 @@ class Library{
     public void addBook(String str) {   //Add Book to Library
         this.availableBookList.add(str);
     }
-
     public ArrayList<String> getIssuedBookList() {  //Getting Issued BookList
         return issuedBookList;
     }
