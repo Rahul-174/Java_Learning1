@@ -13,7 +13,7 @@ An interface is a completely "abstract class" that is used to group related meth
     => Interface methods do not have a body - the body is provided by the "implement" class
     => On implementation of an interface, you must override all of its methods
     => Interface methods are by default abstract and public
-    => Interface attributes are by default public, static and final
+    => Interface Default-attributes are by default public, static and final
     => An interface cannot contain a constructor (as it cannot be used to create objects)
 
               Why And When To Use Interfaces?
@@ -25,7 +25,7 @@ An interface is a completely "abstract class" that is used to group related meth
 
 
     NOTE : AN ABSTRACT CLASS MUST HAVE ATLEAST ONE ABSTRACT_METHOD(methods with no body) .....(CAN HAVE NON-ABSTRACT METHODS TOO),
-           but..INTERFACES ALL METHODS MUST BE ABSTRACT.
+           but..INTERFACES ALL METHODS MUST BE ABSTRACT (EXCEPT :default methods).
 
 */
 
@@ -73,7 +73,7 @@ public class Oops9_Interfaces {
         myObj.applyBreak(10);
         myObj.applyBreak(-10);
         System.out.println(myObj.a);
- //       myObj.a=23; // ERROR : b/c Interface attributes are by default public, static and final
+ //       myObj.a=23; // ERROR : b/c Interface default-attributes are by default public, static and final
                       //              and final attributes can't be changed
 
         myObj.blowHorn();
