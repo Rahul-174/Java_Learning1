@@ -8,7 +8,7 @@ package com.JavaLearning.OOPs;
   => constructor in Derived as well as Base class will invoke
   => First Base class Constructor(Normally Default constructor){it will be like running inside derived class}
      and then Derived class constructor will invoke.
-  => If we want to invoke overloaded constructor of Base class(Super Class) we can use 'super' keyword int derived class
+  => If we want to invoke overloaded constructor of Base class(Super Class) we can use 'super' keyword in derived class
   => If we want to invoke overloaded constructor of Derived class,
      it is automatically done based on parameters given during object creation in main method;
 

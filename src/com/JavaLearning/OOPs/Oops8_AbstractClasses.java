@@ -15,7 +15,7 @@ ABSTRACT CLASS : If a class contains abstract method then it is abstract class
 
 abstract class Base2{
     public Base2(){ //constructor
-        System.out.println("I'n constructor in Base2");
+        System.out.println("I'm constructor in Base2");
 
     }
     public void sayHello(){
